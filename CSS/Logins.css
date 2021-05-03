@@ -1,0 +1,130 @@
+#LOG-REGN{
+ margin: 0;
+ padding: 0;
+ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-image: url(../imagenes/Store.jpg);
+ background-size:auto;
+ font-size: 30px;
+}
+
+
+/* WRAP INTERNO DEL LOG IN Y REGISTRO*/
+form a  {
+  color: white;
+  font-weight:lighter;
+  font-size: 18px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  display: inline;
+  text-decoration: none;
+}
+/*Cuadro interno del log in y registro*/
+.process{
+  width: 420px;
+  padding: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(10,10,10,0.7);
+  text-align: center;
+}
+/*Cuadro interno del log in y registro*/
+.process h1{
+  margin-top: 10px;
+  color: white;
+  font-weight: 500;
+}
+/*Cuadro interno del log in y registro*/
+.process h2{
+  color: white;
+  text-align: left;
+  font-weight:lighter;
+  font-size: 15px;
+}
+/*SELECCION DE LOG IN O REGISTRO ANIMACION*/
+form a:hover{
+  color: #C6342E;
+font-weight: bold;
+}
+/*SELECCION DE LOG IN O REGISTRO */
+#LOG-REG {
+  padding: 20px 0px 0px 0px;
+
+}
+/*SELECCION DE LOG IN O REGISTRO (FALTA ALINEACION) */
+#LOG-REG li
+{
+  margin-right: 20px;
+  display: inline;
+  text-decoration:none;
+}
+/*CUADROS DE TEXTO DEL LOG IN*/
+#textboxlog
+{
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+}
+/*COLOR DE LA PESTANA SELECCIONADA PARA INDICAR LA ACTUAL */
+#LOG-REG .Actual a{
+  color: #3498db;
+font-weight:bold;
+text-decoration:overline;
+}
+/* LABEL DEL REGISTRO AL SELECCIONAR EL TIPO DE CUENTA*/
+label{
+  color: white;
+  font-weight:lighter;
+  font-size: 16px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  display: inline;
+  text-decoration: none;
+}
+/* ALINEACION DEL LOG Y REGISTRO*/
+.Log
+{
+  float:left;
+  margin-left: 70px;
+}
+
+/*-----------------------------------------ANIMACIONES DEDICADAS AL LOG IN Y REGISTRO--------------------------------------*/
+.process input[type = "text"],.process input[type = "password"],.process input[type = "Nombre"],.process input[type = "Correo"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.process input[type = "text"]:focus,.process input[type = "password"]:focus,.process input[type = "Nombre"]:focus,.process input[type = "Correo"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.process input[type = "submit"],.process input[type = "button"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+
+}
+.process input[type = "submit"]:hover,.process input[type = "button"]:hover{
+  background: #2ecc71;
+}
+footer{
+width: 1500px;
+
+}
